@@ -99,6 +99,7 @@ if __name__ == '__main__':
         result = input('Enter the result: ')
         words = guess_word(guess, result, words, guesses)
         if len(words) == 1:
+            print(words)
             guesses = 6
         else:
             guesses += 1
